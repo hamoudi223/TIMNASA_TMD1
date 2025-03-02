@@ -11,11 +11,11 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "TIMNASA-TMD",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "22395064497",              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "no",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'BMW_MD',
     URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/17c83719a1b40e02971e4.jpg',
-    MODE: process.env.PUBLIC_MODE || "yes",
+    MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
@@ -23,11 +23,11 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     ETAT : process.env.PRESENCE || '',
     CHATBOT : process.env.PM_CHATBOT || 'no',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
-    ADM : process.env.ANTI_DELETE_MESSAGE || 'yes',
-    TIMNASA_TMD : process.env.AUTO_LIKE_STATUS || 'yes',
+    ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
+    TIMNASA_TMD : process.env.AUTO_LIKE_STATUS || 'no',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway" : "postgresql://postgres:bKlIqoOUWFIHOAhKxRWQtGfKfhGKgmRX@viaduct.proxy.rlwy.net:47738/railway",
+        ? "postgresql://moudy_ggs4_user:1Tx91xlTiQ7jL2EMPUjVLa9xN4BfhafW@dpg-cusc0ca3esus73fltvs0-a.oregon-postgres.render.com/moudy_ggs4" : "postgresql://moudy_ggs4_user:1Tx91xlTiQ7jL2EMPUjVLa9xN4BfhafW@dpg-cusc0ca3esus73fltvs0-a.oregon-postgres.render.com/moudy_ggs4",
    
 };
 
